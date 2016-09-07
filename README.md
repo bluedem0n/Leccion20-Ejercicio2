@@ -10,7 +10,8 @@ var feature = 'closures';
 	} 
 })();
 
-> Solución
+> 
+Solución
 var feature = 'closures'; 
 (function () {     
 	if ( typeof feature === 'undefined' ){         
