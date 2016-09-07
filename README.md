@@ -1,5 +1,6 @@
 # Leccion20-Ejercicio2
 **Problema1**
+
 var feature = 'closures'; 
 (function () {     
 	if ( typeof feature === 'undefined' ){         
@@ -10,6 +11,7 @@ var feature = 'closures';
 	} 
 })();
 **Solución**
+
 > var feature = 'closures'; 
 (function () {     
 	if ( typeof feature === 'undefined' ){         
@@ -19,4 +21,5 @@ var feature = 'closures';
 	} 
 })();
 
+**Explicación**
 
