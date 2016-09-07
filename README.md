@@ -1,5 +1,5 @@
 # Leccion20-Ejercicio2
-> Ejemplo
+_Ejemplo_
 var feature = 'closures'; 
 (function () {     
 	if ( typeof feature === 'undefined' ){         
