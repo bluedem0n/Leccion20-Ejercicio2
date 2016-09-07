@@ -12,7 +12,7 @@ var feature = 'closures';
 
 > 
 Solución
-var feature = 'closures'; 
+  var feature = 'closures'; 
 (function () {     
 	if ( typeof feature === 'undefined' ){         
 		console.log('JS coders love its ' + feature );     
