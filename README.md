@@ -26,6 +26,5 @@ var feature = 'closures';
 **Explicación**
 En el ejemplo propuesto existen dos variables con el mismo nombre pero diferente ambito, en este caso se espera mostrar el mensaje 
 **JS developers love its closures.** pero no se obtiene ese resultado por que predomina la variable local , en la condición se lee la variable feature aunque no este inicializada por eso la pasa como undefined , pero igual la lee y muestra el mensaje.
-La solución fue dejar la variable global para que cuando pase por la condición sea falsa y muestre el mensaje esperado.
-La solución para este caso fue eliminar la variable local para poder tomar la global feature = 'closures'
+La solución fue dejar declarada la variable global para que cuando pase por la condición sea falsa y muestre el mensaje esperado.
 
